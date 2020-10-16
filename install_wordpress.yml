@@ -6,6 +6,10 @@
     vars:
       server_name: "{{ inventory_hostname }}"
 
+  - name: Disable SELinux
+    selinux:
+      state: disabled
+
   - name: Install PHP
     import_role:
       name: ansible-role-php
