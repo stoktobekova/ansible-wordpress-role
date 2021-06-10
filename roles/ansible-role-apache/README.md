@@ -25,5 +25,5 @@ MIT
 
 Author Information
 ------------------
-Islam Kambarov
+
 
